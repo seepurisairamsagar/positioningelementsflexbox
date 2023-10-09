@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                position: relative;
+                width: 300px;
+                height: 300px;
+                border: 1px solid #ccc;
+            }
+            .static-element{
+                widows: 40px;
+                height: 40px;
+               
+            }
+             .relative-element{
+                position: relative;
+                top:80px;
+                left: 30px;
+                width: 50px;
+                height: 50px;
+              
+            }
+            .absolute-element{
+                position: absolute;
+                top: 100px;
+                left:300x;
+                width: 50px;
+                height: 50px;
+               
+                
+            }
+            .fixed-element{
+                position: fixed;
+                top: 20px;
+                left: 30px;
+                width: 50px;
+                height: 50px;
+           
+                
+             }
+            .flex-container{
+                position: flex;
+                top:30px;
+                left:30px;
+                width: 50px;
+                height: 50px;
+                
+            }
+            
+        </style>
+    </head>
+    <body style="background:linear-gradient(#e6ac0e 30%,#19d4d1 100%,#c812e0 50%,#26f00c 100%)">
+        <header>
+        <h1 style="color: crimson">positioning types of elements</h1></header>
+ 
+        <div class="container">
+            <div class= "static-element">static</div>
+            <img src="photo-1495175448924-1d9a30c90a42.jpeg">
+             </div>
+     
+         <div class="container">
+        <div class="relative-element">Relative</div>
+             <img src="pexels-nikolai-ulltang-529782.jpg">
+        </div>
+        
+        <div class="container">
+            <div class="absolute-element">Absolute</div>
+            <img src="photo-1503023345310-bd7c1de61c7d.jpeg">
+        </div>
+        
+        <div class="container">
+       <div class="fixed-element">Fixed</div>
+            <img src="photo-1541963463532-d68292c34b19.jpeg">
+        </div>
+        <header>
+        <h1 style="color: crimson">Flex-box</h1></header>
+        <div class="main">
+            <img src="images%20(1).jpeg">
+            <img src="images%20(2).jpeg">
+            <img src="The_Lone_Pollinator.jpg">
+            <img src="Untitled-design-2022-04-07T114308.604.jpg">
+        </div>
+        
+      </body>
+    <style>
+        .main{
+            display:flex;
+            flex-direction:row;
+            flex-wrap: nowrap;
+            align-items:center;
+            justify-content:space-around;
+            
+        }
+        img{
+            width: 300px;
+            height: 200px;
+            
+        }
+    </style>
+</html>
